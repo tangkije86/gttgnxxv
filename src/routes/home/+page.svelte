@@ -16,14 +16,12 @@
         </div>
     </header>
     <div class="p-4">
-        <!--
-        {#await import(`../../lib/images/badges.webp`) then { default: src }}
-            <img class="w-full mb-4" {src} alt="Badges" />
-        {/await}
-        -->
         {#await import(`../../lib/images/hero.png`) then { default: src }}
             <img class="w-full rounded-lg shadow-lg mb-4" {src} alt="Hero" />
         {/await}
+        <div class="min-h-[5vh] flex flex-row gap-2 items-center">
+            <h1 class="font-bold grow">LOKASI - LOKASI KEGIATAN</h1>
+        </div>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-2">
             <a href={venue_1_data.google_maps} target="_blank">
                 <div class="flex flex-row items-center bg-green-100 border border-green-300 rounded-lg shadow-sm">
@@ -31,59 +29,20 @@
                         <img class="w-full rounded-lg" {src} alt="Islamic Center" />
                     {/await}
                 </div>
-                <!--<div class="flex flex-row items-center bg-green-100 border border-green-300 rounded-lg shadow-sm">
-                    <div class="p-4">
-                        <i class="text-2xl fi fi-br-land-layer-location text-green-500"></i>
-                    </div>
-                    <div class="py-2 pr-2 text-sm">
-                        <div>
-                            <span class="font-bold">{venue_1_data.name}</span>
-                        </div>
-                        <div>
-                            <span class="text-xs">Ketuk untuk membuka lokasi venue di peta</span>
-                        </div>
-                    </div>
-                </div>-->
             </a>
-            <a href={venue_2_data.google_maps} target="_blank">
+            <a href={venue_3_data.google_maps} target="_blank">
                 <div class="flex flex-row items-center bg-green-100 border border-green-300 rounded-lg shadow-sm">
                     {#await import(`../../lib/images/dapoer_sasak.png`) then { default: src }}
                         <img class="w-full rounded-lg" {src} alt="Dapoer Sasak" />
                     {/await}
                 </div>
-                <!--<div class="flex flex-row items-center bg-green-100 border border-green-300 rounded-lg shadow-sm">
-                    <div class="p-4">
-                        <i class="text-2xl fi fi-br-land-layer-location text-green-500"></i>
-                    </div>
-                    <div class="py-2 pr-2 text-sm">
-                        <div>
-                            <span class="font-bold">{venue_2_data.name}</span>
-                        </div>
-                        <div>
-                            <span class="text-xs">Ketuk untuk membuka lokasi venue di peta</span>
-                        </div>
-                    </div>
-                </div>-->
             </a>
-            <a href={venue_3_data.google_maps} target="_blank">
+            <a href={venue_2_data.google_maps} target="_blank">
                 <div class="flex flex-row items-center bg-green-100 border border-green-300 rounded-lg shadow-sm">
                     {#await import(`../../lib/images/bank_ntb.png`) then { default: src }}
                         <img class="w-full rounded-lg" {src} alt="Bank NTB" />
                     {/await}
                 </div>
-                <!--<div class="flex flex-row items-center bg-green-100 border border-green-300 rounded-lg shadow-sm">
-                    <div class="p-4">
-                        <i class="text-2xl fi fi-br-land-layer-location text-green-500"></i>
-                    </div>
-                    <div class="py-2 pr-2 text-sm">
-                        <div>
-                            <span class="font-bold">{venue_3_data.name}</span>
-                        </div>
-                        <div>
-                            <span class="text-xs">Ketuk untuk membuka lokasi venue di peta</span>
-                        </div>
-                    </div>
-                </div>-->
             </a>
             <a href={venue_4_data.google_maps} target="_blank">
                 <div class="flex flex-row items-center bg-green-100 border border-green-300 rounded-lg shadow-sm">
@@ -91,19 +50,6 @@
                         <img class="w-full rounded-lg" {src} alt="Teras Udayana" />
                     {/await}
                 </div>
-                <!--<div class="flex flex-row items-center bg-green-100 border border-green-300 rounded-lg shadow-sm">
-                    <div class="p-4">
-                        <i class="text-2xl fi fi-br-land-layer-location text-green-500"></i>
-                    </div>
-                    <div class="py-2 pr-2 text-sm">
-                        <div>
-                            <span class="font-bold">{venue_4_data.name}</span>
-                        </div>
-                        <div>
-                            <span class="text-xs">Ketuk untuk membuka lokasi venue di peta</span>
-                        </div>
-                    </div>
-                </div>-->
             </a>
         </div>
         <div class="grid grid-cols-3 gap-4 mt-4">
