@@ -200,4 +200,79 @@
         "traveloka": "https://www.traveloka.com/id-id/hotel/indonesia/aston-inn-mataram-3000010016966",
         "tiket": "https://www.tiket.com/hotel/indonesia/aston-inn-mataram-108001534490335182"
     }
+}, {
+    "slug":"sapadia",
+    "name":"Sapadia Hotel",
+    "type":"hotel",
+    "coords": [-8.593076583340267, 116.09738788837075],
+    "google_maps":"https://maps.app.goo.gl/NrwQn68Nuq2RHMKNA",
+    "cover":"sapadia",
+    "icons":["wifi", "air-conditioner", "utensils", "parking", "time-twenty-four"],
+    "booking":{
+        "tiket":"https://www.tiket.com/hotel/indonesia/sapadia-hotel-convention-lombok-612001703776513469",
+        "traveloka":"https://www.traveloka.com/id-id/hotel/indonesia/sapadia-hotel--convention-narmada-lombok-3000010005982"
+    }
+}, {
+    "slug":"same",
+    "name":"Same Hotel Lombok",
+    "type":"hotel",
+    "coords": [-8.56280166589483, 116.11581545571947],
+    "google_maps":"https://maps.app.goo.gl/UjLfXoRhwKy9QZ5E7",
+    "cover":"same",
+    "icons":["wifi", "air-conditioner", "utensils", "parking", "time-twenty-four"],
+    "booking":{
+        "tiket":"https://www.tiket.com/hotel/indonesia/same-hotel-lombok-205001557162033276",
+        "traveloka":"https://www.traveloka.com/id-id/hotel/indonesia/same-hotel-lombok-9000000134543"
+    }
+}, {
+    "slug":"mataram_square",
+    "name":"Mataram Square Hotel",
+    "type":"hotel",
+    "coords": [-8.582172543594416, 116.08614097784444],
+    "google_maps":"https://maps.app.goo.gl/mrusamxuqVvexN3fA",
+    "cover":"mataram_square",
+    "icons":["wifi", "air-conditioner", "utensils", "parking", "time-twenty-four"],
+    "booking":{
+        "tiket":"https://www.tiket.com/hotel/indonesia/mataram-square-hotel-108001534490292131",
+        "traveloka":"https://www.traveloka.com/id-id/hotel/indonesia/mataram-square-hotel-3000010003009"
+    }
+}, {
+    "slug":"lombok_plaza",
+    "name":"Lombok Plaza Hotel",
+    "type":"hotel",
+    "coords": [-8.587042296479103, 116.12883237787037],
+    "google_maps":"https://maps.app.goo.gl/j9W6T1nvZ39S7ZyR9",
+    "cover":"lombok_plaza",
+    "icons":["wifi", "air-conditioner", "utensils", "parking", "time-twenty-four"],
+    "booking":{
+        "agoda":"https://www.agoda.com/id-id/lombok-plaza-hotel/hotel/lombok-id.html",
+        "tiket":"https://www.tiket.com/hotel/indonesia/lombok-plaza-hotel-and-convention-108001534490289942",
+        "traveloka":"https://www.traveloka.com/id-id/hotel/indonesia/lombok-plaza-hotel--convention-267474"
+    }
+}, {
+    "slug":"aruna",
+    "name":"Aruna Senggigi Hotel",
+    "type":"hotel",
+    "coords": [-8.501251184035485, 116.05168629562961],
+    "google_maps":"https://maps.app.goo.gl/5FPg3Kn5bJY7pcor8",
+    "cover":"aruna",
+    "icons":["wifi", "air-conditioner", "utensils", "parking", "time-twenty-four"],
+    "booking":{
+        "agoda":"https://www.agoda.com/id-id/aruna-senggigi-resort-convention/hotel/lombok-id.html",
+        "tiket":"https://www.tiket.com/hotel/indonesia/aruna-senggigi-resort-convention-108001534490288159",
+        "traveloka":"https://www.traveloka.com/id-id/hotel/indonesia/aruna-senggigi-44470200000"
+    }
+}, {
+    "slug":"golden_palace",
+    "name":"Golden Palace Hotel",
+    "type":"hotel",
+    "coords": [-8.59402951600149, 116.12204866580167],
+    "google_maps":"https://maps.app.goo.gl/47jQZXuHY4zLrpg2A",
+    "cover":"golden_palace",
+    "icons":["wifi", "air-conditioner", "utensils", "parking", "time-twenty-four"],
+    "booking":{
+        "agoda":"https://www.agoda.com/id-id/golden-palace-hotel-lombok/hotel/lombok-id.html",
+        "tiket":"https://www.tiket.com/hotel/indonesia/golden-palace-hotel-lombok-108001534490319711",
+        "traveloka":"https://www.traveloka.com/id-id/hotel/indonesia/golden-palace-hotel-lombok-3000010000411"
+    }
 }]
