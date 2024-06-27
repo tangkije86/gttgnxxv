@@ -93,31 +93,16 @@
                         </div>
                     </div>
                 </a>
-                <!--<a href="./documents/DENAH STAND.pdf">
-                    <div class="text-center">
-                        <span class="absolute w-[40px] h-[40px] -ml-4 mt-2 rounded-full bg-blue-200 blur z-0"></span>
-                        <span class="absolute w-[30px] h-[30px] -ml-6 rounded-full bg-blue-300 blur z-10"></span>
-                        <span class="absolute w-[50px] h-[50px] -ml-6 rounded-full bg-green-200 blur z-10"></span>
-                        <div class="p-2">
-                            <i class="relative fi fi-sr-rectangles-mixed text-3xl z-20"></i>
-                        </div>
-                        <div class="mt-4 rounded-full bg-teal-500 text-white px-1">
-                            <span class="text-xs">Stand</span>
-                        </div>
-                    </div>
-                </a>-->
             </div>
             <div class="p-2">
-                <a href="./video">
+                <a href="./baju">
                     <div class="text-center">
-                        <!--<span class="absolute w-[40px] h-[40px] -ml-4 mt-2 rounded-full bg-red-200 blur z-0"></span>
-                        <span class="absolute w-[30px] h-[30px] -ml-6 rounded-full bg-red-300 blur z-10"></span>-->
                         <span class="absolute w-[50px] h-[50px] -ml-6 rounded-full bg-green-200 blur z-10"></span>
                         <div class="p-2">
-                            <i class="relative fi fi-ss-clapperboard-play text-3xl z-20"></i>
+                            <i class="relative fi fi-ss-shirt-long-sleeve text-3xl z-20"></i>
                         </div>
                         <div class="mt-4 rounded-full bg-green-700 text-white px-1">
-                            <span class="text-xs">VIDEO</span>
+                            <span class="text-xs">BAJU BATIK</span>
                         </div>
                     </div>
                 </a>
@@ -125,8 +110,6 @@
             <div class="p-2">
                 <a href="./hotel">
                     <div class="text-center">
-                        <!--<span class="absolute w-[40px] h-[40px] -ml-4 mt-2 rounded-full bg-purple-200 blur z-0"></span>
-                        <span class="absolute w-[30px] h-[30px] -ml-6 rounded-full bg-blue-200 blur z-10"></span>-->
                         <span class="absolute w-[50px] h-[50px] -ml-6 rounded-full bg-green-200 blur z-10"></span>
                         <div class="p-2">
                             <i class="relative fi fi-ss-building text-3xl z-20"></i>
@@ -140,8 +123,6 @@
             <div class="p-2">
                 <a href="./restaurant">
                     <div class="text-center">
-                        <!--<span class="absolute w-[40px] h-[40px] -ml-4 mt-2 rounded-full bg-green-200 blur z-0"></span>
-                        <span class="absolute w-[30px] h-[30px] -ml-6 rounded-full bg-blue-200 blur z-10"></span>-->
                         <span class="absolute w-[50px] h-[50px] -ml-6 rounded-full bg-green-200 blur z-10"></span>
                         <div class="p-2">
                             <i class="relative fi fi-sr-hamburger-soda text-3xl z-20"></i>
