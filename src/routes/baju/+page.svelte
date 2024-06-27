@@ -5,7 +5,7 @@
 </script>-->
 
 <svelte:head>
-    <title>Baju - GTTGN NTB 2024</title>
+    <title>Seragam - GTTGN NTB 2024</title>
 </svelte:head>
 
 <div class="min-h-[100vh] lg:w-1/2 lg:border-x mx-auto bg-white">
@@ -14,12 +14,12 @@
             <a href="./home">
                 <i class="fi fi-rr-arrow-left"></i>
             </a>
-            <h1 class="font-bold grow">Baju GTTGN XXV</h1>
+            <h1 class="font-bold grow">Seragam GTTGN XXV</h1>
         </div>
     </header>
     <div class="p-4 flex flex-col gap-12 items-center">
         {#await import(`../../lib/images/baju_ttg.png`) then { default: src }}
-            <img class="w-full rounded-lg shadow-lg mb-4" {src} alt="Baju TTG" />
+            <img class="w-full rounded-lg shadow-lg mb-4" {src} alt="Seragam" />
         {/await}
     </div>
 </div>
