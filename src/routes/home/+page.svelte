@@ -102,7 +102,7 @@
                             <i class="relative fi fi-ss-shirt-long-sleeve text-3xl z-20"></i>
                         </div>
                         <div class="mt-4 rounded-full bg-green-700 text-white px-1">
-                            <span class="text-xs">BAJU BATIK</span>
+                            <span class="text-xs">SERAGAM</span>
                         </div>
                     </div>
                 </a>
