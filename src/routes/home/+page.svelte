@@ -26,7 +26,7 @@
             <h1 class="font-bold grow">NEWS</h1>
         </div>
 
-        <div class="max-w-4xl space-y-4">
+        <div>
             <Carousel {images} duration={5000} imgClass="object-contain h-fit w-fit" let:Indicators >
               <Indicators />
             </Carousel>
