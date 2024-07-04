@@ -82,19 +82,6 @@
                 </a>
             </div>
             <div class="p-2">
-                <a href="./stand">
-                    <div class="text-center">
-                        <span class="absolute w-[50px] h-[50px] -ml-6 rounded-full bg-green-200 blur z-10"></span>
-                        <div class="p-2">
-                            <i class="relative fi fi-ss-apps-add text-3xl z-20"></i>
-                        </div>
-                        <div class="mt-4 rounded-full bg-green-700 text-white px-1">
-                            <span class="text-xs">STAND</span>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="p-2">
                 <a href="./baju">
                     <div class="text-center">
                         <span class="absolute w-[50px] h-[50px] -ml-6 rounded-full bg-green-200 blur z-10"></span>
@@ -128,7 +115,7 @@
                             <i class="relative fi fi-sr-hamburger-soda text-3xl z-20"></i>
                         </div>
                         <div class="mt-4 rounded-full bg-green-700 text-white px-1">
-                            <span class="text-xs">RESTORAN</span>
+                            <span class="text-xs">KULINER</span>
                         </div>
                     </div>
                 </a>
@@ -149,21 +136,6 @@
                 </a>
             </div>
             <div class="p-2">
-                <a href="./transport">
-                    <div class="text-center">
-                        <!--<span class="absolute w-[40px] h-[40px] -ml-4 mt-2 rounded-full bg-blue-200 blur z-0"></span>
-                        <span class="absolute w-[30px] h-[30px] -ml-6 rounded-full bg-green-200 blur z-10"></span>-->
-                        <span class="absolute w-[50px] h-[50px] -ml-6 rounded-full bg-green-200 blur z-10"></span>
-                        <div class="p-2">
-                            <i class="relative fi fi-bs-car text-3xl z-20"></i>
-                        </div>
-                        <div class="mt-4 rounded-full bg-green-700 text-white px-1">
-                            <span class="text-xs">TRANSPORT</span>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="p-2">
                 <a href="./souvenir">
                     <div class="text-center">
                         <!--<span class="absolute w-[40px] h-[40px] -ml-4 mt-2 rounded-full bg-green-200 blur z-0"></span>
@@ -174,51 +146,6 @@
                         </div>
                         <div class="mt-4 rounded-full bg-green-700 text-white px-1">
                             <span class="text-xs">OLEH - OLEH</span>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="p-2">
-                <a href="./atm">
-                    <div class="text-center">
-                        <!--<span class="absolute w-[40px] h-[40px] -ml-4 mt-2 rounded-full bg-blue-200 blur z-0"></span>
-                        <span class="absolute w-[30px] h-[30px] -ml-6 rounded-full bg-red-200 blur z-10"></span>-->
-                        <span class="absolute w-[50px] h-[50px] -ml-6 rounded-full bg-green-200 blur z-10"></span>
-                        <div class="p-2">
-                            <i class="relative fi fi-sr-wallet text-3xl z-20"></i>
-                        </div>
-                        <div class="mt-4 rounded-full bg-green-700 text-white px-1">
-                            <span class="text-xs">ATM</span>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="p-2">
-                <a href="./gas">
-                    <div class="text-center">
-                        <!--<span class="absolute w-[40px] h-[40px] -ml-4 mt-2 rounded-full bg-red-200 blur z-0"></span>
-                        <span class="absolute w-[30px] h-[30px] -ml-6 rounded-full bg-blue-200 blur z-10"></span>-->
-                        <span class="absolute w-[50px] h-[50px] -ml-6 rounded-full bg-green-200 blur z-10"></span>
-                        <div class="p-2">
-                            <i class="relative fi fi-ss-gas-pump-alt text-3xl z-20"></i>
-                        </div>
-                        <div class="mt-4 rounded-full bg-green-700 text-white px-1">
-                            <span class="text-xs">SPBU</span>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="p-2">
-                <a href="./equipment">
-                    <div class="text-center">
-                        <!--<span class="absolute w-[40px] h-[40px] -ml-4 mt-2 rounded-full bg-orange-200 blur z-0"></span>
-                        <span class="absolute w-[30px] h-[30px] -ml-6 rounded-full bg-blue-200 blur z-10"></span>-->
-                        <span class="absolute w-[50px] h-[50px] -ml-6 rounded-full bg-green-200 blur z-10"></span>
-                        <div class="p-2">
-                            <i class="relative fi fi-br-tools text-3xl z-20"></i>
-                        </div>
-                        <div class="mt-4 rounded-full bg-green-700 text-white px-1">
-                            <span class="text-xs">PERLENGKAPAN</span>
                         </div>
                     </div>
                 </a>
