@@ -3,6 +3,8 @@
     import venue_2_data from '$lib/venue_2.json';
     import venue_3_data from '$lib/venue_3.json';
     import venue_4_data from '$lib/venue_4.json';
+    import { Carousel, Indicator } from 'flowbite-svelte';
+    import images from '$lib/images.json';
 </script>
 
 <svelte:head>
@@ -19,8 +21,19 @@
         {#await import(`../../lib/images/hero.png`) then { default: src }}
             <img class="w-full rounded-lg shadow-lg mb-4" {src} alt="Hero" />
         {/await}
+
         <div class="min-h-[5vh] flex flex-row gap-2 items-center">
-            <h1 class="font-bold grow">LOKASI - LOKASI KEGIATAN</h1>
+            <h1 class="font-bold grow">NEWS</h1>
+        </div>
+
+        <div class="max-w-4xl space-y-4">
+            <Carousel {images} duration={5000} imgClass="object-contain h-fit w-fit" let:Indicators >
+              <Indicators />
+            </Carousel>
+          </div>
+
+        <div class="min-h-[5vh] flex flex-row gap-2 items-center">
+            <h1 class="font-bold grow">VENUES</h1>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-2">
             <a href={venue_1_data.google_maps} target="_blank">
@@ -69,14 +82,25 @@
             <div class="p-2">
                 <a href="./lo">
                     <div class="text-center">
-                        <!--<span class="absolute w-[40px] h-[40px] -ml-4 mt-2 rounded-full bg-blue-200 blur z-0"></span>
-                        <span class="absolute w-[50px] h-[50px] -ml-6 rounded-full bg-green-300 blur z-10"></span>-->
                         <span class="absolute w-[50px] h-[50px] -ml-6 rounded-full bg-green-200 blur z-10"></span>
                         <div class="p-2">
                             <i class="relative fi fi-sr-users text-3xl z-20"></i>
                         </div>
                         <div class="mt-4 rounded-full bg-green-700 text-white px-1">
                             <span class="text-xs">LO</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="p-2">
+                <a href="./stand">
+                    <div class="text-center">
+                        <span class="absolute w-[50px] h-[50px] -ml-6 rounded-full bg-green-200 blur z-10"></span>
+                        <div class="p-2">
+                            <i class="relative fi fi-ss-apps-add text-3xl z-20"></i>
+                        </div>
+                        <div class="mt-4 rounded-full bg-green-700 text-white px-1">
+                            <span class="text-xs">STAND</span>
                         </div>
                     </div>
                 </a>
@@ -112,7 +136,7 @@
                     <div class="text-center">
                         <span class="absolute w-[50px] h-[50px] -ml-6 rounded-full bg-green-200 blur z-10"></span>
                         <div class="p-2">
-                            <i class="relative fi fi-sr-hamburger-soda text-3xl z-20"></i>
+                            <i class="relative fi fi-sr-restaurant text-3xl z-20"></i>
                         </div>
                         <div class="mt-4 rounded-full bg-green-700 text-white px-1">
                             <span class="text-xs">KULINER</span>
@@ -123,8 +147,6 @@
             <div class="p-2">
                 <a href="./destination">
                     <div class="text-center">
-                        <!--<span class="absolute w-[40px] h-[40px] -ml-4 mt-2 rounded-full bg-blue-200 blur z-0"></span>
-                        <span class="absolute w-[30px] h-[30px] -ml-6 rounded-full bg-blue-200 blur z-10"></span>-->
                         <span class="absolute w-[50px] h-[50px] -ml-6 rounded-full bg-green-200 blur z-10"></span>
                         <div class="p-2">
                             <i class="relative fi fi-sr-umbrella-beach text-3xl z-20"></i>
@@ -135,11 +157,22 @@
                     </div>
                 </a>
             </div>
+            <!--<div class="p-2">
+                <a href="./transport">
+                    <div class="text-center">
+                        <span class="absolute w-[50px] h-[50px] -ml-6 rounded-full bg-green-200 blur z-10"></span>
+                        <div class="p-2">
+                            <i class="relative fi fi-bs-car text-3xl z-20"></i>
+                        </div>
+                        <div class="mt-4 rounded-full bg-green-700 text-white px-1">
+                            <span class="text-xs">TRANSPORT</span>
+                        </div>
+                    </div>
+                </a>
+            </div>-->
             <div class="p-2">
                 <a href="./souvenir">
                     <div class="text-center">
-                        <!--<span class="absolute w-[40px] h-[40px] -ml-4 mt-2 rounded-full bg-green-200 blur z-0"></span>
-                        <span class="absolute w-[30px] h-[30px] -ml-6 rounded-full bg-blue-200 blur z-10"></span>-->
                         <span class="absolute w-[50px] h-[50px] -ml-6 rounded-full bg-green-200 blur z-10"></span>
                         <div class="p-2">
                             <i class="relative fi fi-sr-shopping-cart text-3xl z-20"></i>
@@ -150,6 +183,45 @@
                     </div>
                 </a>
             </div>
+            <!--<div class="p-2">
+                <a href="./atm">
+                    <div class="text-center">
+                        <span class="absolute w-[50px] h-[50px] -ml-6 rounded-full bg-green-200 blur z-10"></span>
+                        <div class="p-2">
+                            <i class="relative fi fi-sr-wallet text-3xl z-20"></i>
+                        </div>
+                        <div class="mt-4 rounded-full bg-green-700 text-white px-1">
+                            <span class="text-xs">ATM</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="p-2">
+                <a href="./gas">
+                    <div class="text-center">
+                        <span class="absolute w-[50px] h-[50px] -ml-6 rounded-full bg-green-200 blur z-10"></span>
+                        <div class="p-2">
+                            <i class="relative fi fi-ss-gas-pump-alt text-3xl z-20"></i>
+                        </div>
+                        <div class="mt-4 rounded-full bg-green-700 text-white px-1">
+                            <span class="text-xs">SPBU</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="p-2">
+                <a href="./equipment">
+                    <div class="text-center">
+                        <span class="absolute w-[50px] h-[50px] -ml-6 rounded-full bg-green-200 blur z-10"></span>
+                        <div class="p-2">
+                            <i class="relative fi fi-br-tools text-3xl z-20"></i>
+                        </div>
+                        <div class="mt-4 rounded-full bg-green-700 text-white px-1">
+                            <span class="text-xs">PERLENGKAPAN</span>
+                        </div>
+                    </div>
+                </a>
+            </div>-->
         </div>
         <div class="mt-4">
             {#await import(`../../lib/images/sponsors.png`) then { default: src }}
