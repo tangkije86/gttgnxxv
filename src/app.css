@@ -6,15 +6,18 @@
 @tailwind utilities;
 
 html {
-    font-family: "Inter", "system-ui";
+    font-family: 'Inter', 'system-ui';
 }
 
-html, body {
+html,
+body {
     min-height: 100vh;
 }
 
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.3) 100%), url('$lib/images/bg.png') top no-repeat;
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.3) 100%),
+        url('$lib/images/bg.png') top no-repeat;
     background-size: cover;
     background-position: 0;
     background-attachment: fixed;
@@ -30,7 +33,7 @@ header {
     position: sticky;
     z-index: 1000;
     top: 0;
-    background: linear-gradient(60deg, rgba(255,255,255,1) 40%, rgba(255,255,255,0) 100%), url('$lib/images/header.png'), linear-gradient(rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+    background: linear-gradient(60deg, rgba(255, 255, 255, 1) 40%, rgba(255, 255, 255, 0) 100%), url('$lib/images/header.png'), linear-gradient(rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
     background-position: top right;
     background-size: contain;
     background-repeat: no-repeat;
