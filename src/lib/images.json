@@ -1,19 +1,23 @@
-[
+Buda[
     {
-      "alt": "1",
+      "alt": "Seni Budaya",
       "src": "https://i.imgur.com/LIIzElr.jpg",
       "title": ""
     },{
-      "alt": "1",
-      "src": "https://i.imgur.com/bzPXtDK.jpg",
+      "alt": "Expo",
+      "src": "https://i.imgur.com/K87MZi1.jpg",
       "title": ""     
     },{      
-      "alt": "1",
-      "src": "https://i.imgur.com/Mll1HEH.jpg",
+      "alt": "Seminar Internasional",
+      "src": "https://i.imgur.com/bNeaZV3.jpg",
       "title": ""  
     },{
-      "alt": "1",
+      "alt": "lombok balikpapan",
       "src": "https://i.imgur.com/CXH8APO.jpg",
       "title": ""  
-    }   
+    },{
+      "alt": "padangbai senggigi",
+      "src": "https://i.imgur.com/zziLXdS.jpg",
+      "title": ""  
+    } 
 ]
