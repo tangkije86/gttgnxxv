@@ -93,19 +93,6 @@
                 </a>
             </div>
             <div class="p-2">
-                <a href="./stand">
-                    <div class="text-center">
-                        <span class="absolute w-[50px] h-[50px] -ml-6 rounded-full bg-green-200 blur z-10"></span>
-                        <div class="p-2">
-                            <i class="relative fi fi-ss-apps-add text-3xl z-20"></i>
-                        </div>
-                        <div class="mt-4 rounded-full bg-green-700 text-white px-1">
-                            <span class="text-xs">STAND</span>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="p-2">
                 <a href="./baju">
                     <div class="text-center">
                         <span class="absolute w-[50px] h-[50px] -ml-6 rounded-full bg-green-200 blur z-10"></span>
